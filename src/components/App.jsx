@@ -17,15 +17,14 @@ import Contact from "./pages/Contact/Contact";
 import Faq from "./pages/FAQ/FAQ";
 import Payouts from "./pages/Payouts/PayOuts";
 
-
-import Navaee from './test/nave.jsx'
+import Navaee from "./test/nave.jsx";
 function App() {
   return (
     <BrowserRouter>
       <Nave />
 
-
       <Routes>
+        <Route path="*" element={<Home />} />;
         <Route path="/" element={<Home />} />;
         <Route path="/Affiliate" element={<Affiliate />} />
         <Route path="/Contact" element={<Contact />} />
