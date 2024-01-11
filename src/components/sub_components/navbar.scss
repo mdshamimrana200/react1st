@@ -1,0 +1,67 @@
+@import "../variable.scss";
+
+.navBar {
+  padding-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+
+
+
+  ul{
+    padding: 5px 0;
+    .style {
+        list-style: none;
+        float: left;
+        padding: 10px 20px;
+        border-radius: 4px;
+        color: $text-color-b;
+        background-color: $transparent;
+        border: 1px solid $transparent;
+        text-decoration: none;
+        font-weight: 700;
+        transition: 0.4s ease;
+      }
+      .active {
+        background-color: $active-btn-color !important;
+        color: $text-color-w;
+      }
+    
+      .active:hover {
+        color: $text-color-w;
+      }
+      a:hover {
+        color: $hover-color;
+      }
+  }
+  // ul{
+
+  // li{
+  //
+
+  //     a{
+  //         border-radius:4px;
+  //         color: $text-color-b;
+  //         background-color: $transparent ;
+  //         border: 1px solid $transparent;
+  //         padding: 5px 10px;
+  //         text-decoration: none;
+  //         font-weight: 700;
+  //         transition: .4s ease;
+
+  //     }
+  //     .active{
+  //         background-color: $active-btn-color !important;
+  //         color: $text-color-w;
+  //     }
+  //     .active:hover{
+  //         color: $text-color-w;
+  //     }
+  //     a:hover{
+  //         color: $hover-color;
+  //     }
+  // }
+  // }
+}

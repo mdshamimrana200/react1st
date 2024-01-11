@@ -1,0 +1,47 @@
+@import "../../variable.scss";
+
+.lgin {
+  .loin_form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 30px;
+
+    .submit {
+      color: black;
+    }
+    .item {
+      font-size: 18px;
+      margin-left: 10px;
+      border-radius: 4px;
+      outline: none;
+      border: none;
+      padding: 10px 12px;
+    }
+  }
+  .forgot_password {
+    color: $active-btn-color !important;
+  }
+  .forgot_password:hover {
+    text-decoration: underline;
+  }
+}
+p {
+  color: gray;
+}
+
+@media only screen and (max-width: 600px) {
+  form {
+    flex-direction: column !important;
+    button {
+      margin-top: 15px;
+    }
+    .item:first-child {
+      margin-bottom: 5px;
+    }
+  }
+  .container {
+    max-width: 600px;
+  }
+}

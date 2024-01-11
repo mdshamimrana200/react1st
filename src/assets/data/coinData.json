@@ -1,0 +1,78 @@
+[
+    {
+        "version": {
+          "v": "1.0"
+          
+        },
+        "coinName": {
+          "coinName": "Earning rate",
+          "coinPrice": 0.0035
+        },
+        "coinProfit": {
+          "coinName": "Profit",
+          "coinPrice": "2% for 1825 days"
+        },
+        "coinTotalProfit": {
+          "coinName": "Total Profit",
+          "coinPrice": "6.39"
+        },
+        "coinBonus": {
+          "coinName": "Affiliate bonus",
+          "coinPrice": "2%"
+        },
+        "coinIcon":{
+            "url": "1.png"
+        }
+      },
+    {
+        "version": {
+          "v": "1.1"
+          
+        },
+        "coinName": {
+          "coinName": "Earning rate",
+          "coinPrice": 0.0035
+        },
+        "coinProfit": {
+          "coinName": "Profit",
+          "coinPrice": "2% for 1825 days"
+        },
+        "coinTotalProfit": {
+          "coinName": "Total Profit",
+          "coinPrice": "6.39"
+        },
+        "coinBonus": {
+          "coinName": "Affiliate bonus",
+          "coinPrice": "2%"
+        },
+        "coinIcon":{
+            "url": "2.png"
+        }
+      },
+    {
+        "version": {
+          "v": "1.2"
+          
+        },
+        "coinName": {
+          "coinName": "Earning rate",
+          "coinPrice": 0.0035
+        },
+        "coinProfit": {
+          "coinName": "Profit",
+          "coinPrice": "2% for 1825 days"
+        },
+        "coinTotalProfit": {
+          "coinName": "Total Profit",
+          "coinPrice": "6.39"
+        },
+        "coinBonus": {
+          "coinName": "Affiliate bonus",
+          "coinPrice": "2%"
+        },
+        "coinIcon":{
+            "url": "3.png"
+        }
+      }
+    
+]

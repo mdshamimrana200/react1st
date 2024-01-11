@@ -1,0 +1,86 @@
+@import '../../variable.scss';
+
+.simple{
+    padding: 20px 10px;
+    background-color: $text-color-dark;
+    color: $text-color-w;
+    text-align: center;
+  }
+  .flex_center{
+    display: flex;
+    flex-direction: column;
+    color: rgb(39, 39, 39) !important;
+    text-align: center;
+    justify-content: center;
+  }
+  .first_section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    p{
+      margin-top: 30px;
+      max-width: 50rem;
+    }
+    padding: 50px 0px;
+  }
+  
+  .boxess{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  
+  }
+  
+  .second_section{
+    margin-bottom: 50px;
+  }
+  
+  
+  
+  .Statistics{
+    text-align: left;
+    background-color: rgb(240, 240, 240);
+    box-shadow:0 0 16px 6px rgba(0, 0, 0, 0.29);
+    padding-top: 30px;
+  
+  }
+  
+  
+  
+  .itemsss{
+    display: flex;
+    gap: 30px;
+    align-items: first baseline;
+    padding: 30px 0px;
+  
+  }
+  
+  .itemmsComponent{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+    flex-direction: column;
+  
+    border-radius: 8px;
+    padding: 15px 30px;
+    h3{
+      background: $text-color-w;
+      border-radius: 10px;
+      padding: 10px;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  @media only screen and (max-width: 600px) {
+    .boxess{
+      flex-direction: column;
+    }
+      
+  }
