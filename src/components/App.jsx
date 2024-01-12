@@ -25,7 +25,7 @@ function App() {
 
       <Routes>
         <Route path="*" element={<Home />} />;
-        <Route path="/" element={<Home />} />;
+        <Route path="/react1st" element={<Home />} />;
         <Route path="/Affiliate" element={<Affiliate />} />
         <Route path="/Contact" element={<Contact />} />
         <Route path="/FAQ" element={<Faq />} />
