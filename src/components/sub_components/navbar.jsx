@@ -14,7 +14,7 @@ var navbar = () => {
     <div>
       <div className="navBar">
         <ul className="navlist">
-        <NavLink to='/' className="style" >Home</NavLink>
+        <NavLink to='/react1st' className="style" >Home</NavLink>
                 <NavLink to='/Affiliate' className="style" >Affiliate Program</NavLink>
                 <NavLink to='/Payouts' className="style" >Payouts</NavLink>
                 <NavLink to='/FAQ' className="style" >FAQ</NavLink>
